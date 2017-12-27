@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00716FE1FF346AD008B87D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00716FD1FF346AD008B87D4 /* AppDelegate.swift */; };
+		B00717001FF346AD008B87D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00716FF1FF346AD008B87D4 /* ViewController.swift */; };
+		B00717031FF346AD008B87D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00717011FF346AD008B87D4 /* Main.storyboard */; };
+		B00717051FF346AD008B87D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00717041FF346AD008B87D4 /* Assets.xcassets */; };
+		B00717081FF346AD008B87D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00717061FF346AD008B87D4 /* LaunchScreen.storyboard */; };
+		B00717131FF346AD008B87D4 /* KLStatusBarMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00717121FF346AD008B87D4 /* KLStatusBarMessageTests.swift */; };
+		B007171E1FF346AD008B87D4 /* KLStatusBarMessageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007171D1FF346AD008B87D4 /* KLStatusBarMessageUITests.swift */; };
+		B007173D1FF34CBD008B87D4 /* KLStatusBarNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007173A1FF34CBD008B87D4 /* KLStatusBarNotification.swift */; };
+		B007173E1FF34CBD008B87D4 /* KLStatusBarNotificationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007173B1FF34CBD008B87D4 /* KLStatusBarNotificationConfig.swift */; };
+		B007173F1FF34CBD008B87D4 /* KLStatusBarNotificationImageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007173C1FF34CBD008B87D4 /* KLStatusBarNotificationImageType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B007170F1FF346AD008B87D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00716F21FF346AD008B87D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00716F91FF346AD008B87D4;
+			remoteInfo = KLStatusBarMessage;
+		};
+		B007171A1FF346AD008B87D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00716F21FF346AD008B87D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00716F91FF346AD008B87D4;
+			remoteInfo = KLStatusBarMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B00716FA1FF346AD008B87D4 /* KLStatusBarMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLStatusBarMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00716FD1FF346AD008B87D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B00716FF1FF346AD008B87D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B00717021FF346AD008B87D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B00717041FF346AD008B87D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00717071FF346AD008B87D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B00717091FF346AD008B87D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B007170E1FF346AD008B87D4 /* KLStatusBarMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLStatusBarMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00717121FF346AD008B87D4 /* KLStatusBarMessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLStatusBarMessageTests.swift; sourceTree = "<group>"; };
+		B00717141FF346AD008B87D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00717191FF346AD008B87D4 /* KLStatusBarMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLStatusBarMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B007171D1FF346AD008B87D4 /* KLStatusBarMessageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLStatusBarMessageUITests.swift; sourceTree = "<group>"; };
+		B007171F1FF346AD008B87D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B007173A1FF34CBD008B87D4 /* KLStatusBarNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLStatusBarNotification.swift; sourceTree = "<group>"; };
+		B007173B1FF34CBD008B87D4 /* KLStatusBarNotificationConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLStatusBarNotificationConfig.swift; sourceTree = "<group>"; };
+		B007173C1FF34CBD008B87D4 /* KLStatusBarNotificationImageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLStatusBarNotificationImageType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B00716F71FF346AD008B87D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B007170B1FF346AD008B87D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00717161FF346AD008B87D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B00716F11FF346AD008B87D4 = {
+			isa = PBXGroup;
+			children = (
+				B00716FC1FF346AD008B87D4 /* KLStatusBarMessage */,
+				B00717111FF346AD008B87D4 /* KLStatusBarMessageTests */,
+				B007171C1FF346AD008B87D4 /* KLStatusBarMessageUITests */,
+				B00716FB1FF346AD008B87D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B00716FB1FF346AD008B87D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00716FA1FF346AD008B87D4 /* KLStatusBarMessage.app */,
+				B007170E1FF346AD008B87D4 /* KLStatusBarMessageTests.xctest */,
+				B00717191FF346AD008B87D4 /* KLStatusBarMessageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00716FC1FF346AD008B87D4 /* KLStatusBarMessage */ = {
+			isa = PBXGroup;
+			children = (
+				B00717391FF34CBD008B87D4 /* KLStatusBar */,
+				B00716FD1FF346AD008B87D4 /* AppDelegate.swift */,
+				B00716FF1FF346AD008B87D4 /* ViewController.swift */,
+				B00717011FF346AD008B87D4 /* Main.storyboard */,
+				B00717041FF346AD008B87D4 /* Assets.xcassets */,
+				B00717061FF346AD008B87D4 /* LaunchScreen.storyboard */,
+				B00717091FF346AD008B87D4 /* Info.plist */,
+			);
+			path = KLStatusBarMessage;
+			sourceTree = "<group>";
+		};
+		B00717111FF346AD008B87D4 /* KLStatusBarMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00717121FF346AD008B87D4 /* KLStatusBarMessageTests.swift */,
+				B00717141FF346AD008B87D4 /* Info.plist */,
+			);
+			path = KLStatusBarMessageTests;
+			sourceTree = "<group>";
+		};
+		B007171C1FF346AD008B87D4 /* KLStatusBarMessageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B007171D1FF346AD008B87D4 /* KLStatusBarMessageUITests.swift */,
+				B007171F1FF346AD008B87D4 /* Info.plist */,
+			);
+			path = KLStatusBarMessageUITests;
+			sourceTree = "<group>";
+		};
+		B00717391FF34CBD008B87D4 /* KLStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				B007173A1FF34CBD008B87D4 /* KLStatusBarNotification.swift */,
+				B007173B1FF34CBD008B87D4 /* KLStatusBarNotificationConfig.swift */,
+				B007173C1FF34CBD008B87D4 /* KLStatusBarNotificationImageType.swift */,
+			);
+			name = KLStatusBar;
+			path = ../../KLStatusBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00716F91FF346AD008B87D4 /* KLStatusBarMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00717221FF346AD008B87D4 /* Build configuration list for PBXNativeTarget "KLStatusBarMessage" */;
+			buildPhases = (
+				B00716F61FF346AD008B87D4 /* Sources */,
+				B00716F71FF346AD008B87D4 /* Frameworks */,
+				B00716F81FF346AD008B87D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLStatusBarMessage;
+			productName = KLStatusBarMessage;
+			productReference = B00716FA1FF346AD008B87D4 /* KLStatusBarMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B007170D1FF346AD008B87D4 /* KLStatusBarMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00717251FF346AD008B87D4 /* Build configuration list for PBXNativeTarget "KLStatusBarMessageTests" */;
+			buildPhases = (
+				B007170A1FF346AD008B87D4 /* Sources */,
+				B007170B1FF346AD008B87D4 /* Frameworks */,
+				B007170C1FF346AD008B87D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00717101FF346AD008B87D4 /* PBXTargetDependency */,
+			);
+			name = KLStatusBarMessageTests;
+			productName = KLStatusBarMessageTests;
+			productReference = B007170E1FF346AD008B87D4 /* KLStatusBarMessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B00717181FF346AD008B87D4 /* KLStatusBarMessageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00717281FF346AD008B87D4 /* Build configuration list for PBXNativeTarget "KLStatusBarMessageUITests" */;
+			buildPhases = (
+				B00717151FF346AD008B87D4 /* Sources */,
+				B00717161FF346AD008B87D4 /* Frameworks */,
+				B00717171FF346AD008B87D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B007171B1FF346AD008B87D4 /* PBXTargetDependency */,
+			);
+			name = KLStatusBarMessageUITests;
+			productName = KLStatusBarMessageUITests;
+			productReference = B00717191FF346AD008B87D4 /* KLStatusBarMessageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B00716F21FF346AD008B87D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "雷珂阳";
+				TargetAttributes = {
+					B00716F91FF346AD008B87D4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B007170D1FF346AD008B87D4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B00716F91FF346AD008B87D4;
+					};
+					B00717181FF346AD008B87D4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B00716F91FF346AD008B87D4;
+					};
+				};
+			};
+			buildConfigurationList = B00716F51FF346AD008B87D4 /* Build configuration list for PBXProject "KLStatusBarMessage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B00716F11FF346AD008B87D4;
+			productRefGroup = B00716FB1FF346AD008B87D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00716F91FF346AD008B87D4 /* KLStatusBarMessage */,
+				B007170D1FF346AD008B87D4 /* KLStatusBarMessageTests */,
+				B00717181FF346AD008B87D4 /* KLStatusBarMessageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00716F81FF346AD008B87D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00717081FF346AD008B87D4 /* LaunchScreen.storyboard in Resources */,
+				B00717051FF346AD008B87D4 /* Assets.xcassets in Resources */,
+				B00717031FF346AD008B87D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B007170C1FF346AD008B87D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00717171FF346AD008B87D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00716F61FF346AD008B87D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B007173F1FF34CBD008B87D4 /* KLStatusBarNotificationImageType.swift in Sources */,
+				B00717001FF346AD008B87D4 /* ViewController.swift in Sources */,
+				B007173D1FF34CBD008B87D4 /* KLStatusBarNotification.swift in Sources */,
+				B00716FE1FF346AD008B87D4 /* AppDelegate.swift in Sources */,
+				B007173E1FF34CBD008B87D4 /* KLStatusBarNotificationConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B007170A1FF346AD008B87D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00717131FF346AD008B87D4 /* KLStatusBarMessageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00717151FF346AD008B87D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B007171E1FF346AD008B87D4 /* KLStatusBarMessageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B00717101FF346AD008B87D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00716F91FF346AD008B87D4 /* KLStatusBarMessage */;
+			targetProxy = B007170F1FF346AD008B87D4 /* PBXContainerItemProxy */;
+		};
+		B007171B1FF346AD008B87D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00716F91FF346AD008B87D4 /* KLStatusBarMessage */;
+			targetProxy = B007171A1FF346AD008B87D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B00717011FF346AD008B87D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00717021FF346AD008B87D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B00717061FF346AD008B87D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00717071FF346AD008B87D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B00717201FF346AD008B87D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B00717211FF346AD008B87D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B00717231FF346AD008B87D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GW4S3S6QN7;
+				INFOPLIST_FILE = KLStatusBarMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lky1307.KLStatusBarMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B00717241FF346AD008B87D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GW4S3S6QN7;
+				INFOPLIST_FILE = KLStatusBarMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lky1307.KLStatusBarMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B00717261FF346AD008B87D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KLStatusBarMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lky1307.KLStatusBarMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLStatusBarMessage.app/KLStatusBarMessage";
+			};
+			name = Debug;
+		};
+		B00717271FF346AD008B87D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KLStatusBarMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lky1307.KLStatusBarMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLStatusBarMessage.app/KLStatusBarMessage";
+			};
+			name = Release;
+		};
+		B00717291FF346AD008B87D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KLStatusBarMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lky1307.KLStatusBarMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KLStatusBarMessage;
+			};
+			name = Debug;
+		};
+		B007172A1FF346AD008B87D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KLStatusBarMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lky1307.KLStatusBarMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KLStatusBarMessage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B00716F51FF346AD008B87D4 /* Build configuration list for PBXProject "KLStatusBarMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00717201FF346AD008B87D4 /* Debug */,
+				B00717211FF346AD008B87D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00717221FF346AD008B87D4 /* Build configuration list for PBXNativeTarget "KLStatusBarMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00717231FF346AD008B87D4 /* Debug */,
+				B00717241FF346AD008B87D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00717251FF346AD008B87D4 /* Build configuration list for PBXNativeTarget "KLStatusBarMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00717261FF346AD008B87D4 /* Debug */,
+				B00717271FF346AD008B87D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00717281FF346AD008B87D4 /* Build configuration list for PBXNativeTarget "KLStatusBarMessageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00717291FF346AD008B87D4 /* Debug */,
+				B007172A1FF346AD008B87D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B00716F21FF346AD008B87D4 /* Project object */;
+}

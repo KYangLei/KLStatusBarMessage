@@ -6,14 +6,6 @@
 //  Copyright © 2017年 雷珂阳. All rights reserved.
 //
 
-//
-//  ZKStatusBarNotification.swift
-//  ZKStatusBarNotification
-//
-//  Created by 王文壮 on 2017/4/25.
-//  Copyright © 2017年 WangWenzhuang. All rights reserved.
-//
-
 import UIKit
 
 // MARK: - KLStatusBarNotification
